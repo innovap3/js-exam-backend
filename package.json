@@ -3,18 +3,20 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": " cross-env NODE_ENV=production node ./bin/www",
-    "dev": "cross-env NODE_ENV=development node ./node_modules/nodemon/bin/nodemon.js ./bin/www"
+    "start": " cross-env NODE_ENV=production node ./src/index",
+    "dev": "cross-env NODE_ENV=development nodemon ./src/index"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.3",
+    "bcryptjs": "^2.4.3",
     "debug": "~2.6.9",
-    "express": "~4.16.0",
-    "morgan": "~1.9.0"
+    "graphql-yoga": "^1.17.0",
+    "jsonwebtoken": "^8.4.0",
+    "prisma-client-lib": "^1.24.0"
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
     "dotenv": "^6.2.0",
-    "nodemon": "^1.18.9"
+    "nodemon": "^1.18.9",
+    "prisma": "^1.24.0"
   }
 }
