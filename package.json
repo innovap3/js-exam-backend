@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": " cross-env NODE_ENV=production node ./src/index",
-    "dev": "cross-env NODE_ENV=development nodemon ./src/index"
+    "start": "cross-env NODE_ENV=production node ./src/index",
+    "dev": "cross-env NODE_ENV=development nodemon --ext js,env,graphql ./src/index"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
