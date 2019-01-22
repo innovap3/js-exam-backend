@@ -1,0 +1,26 @@
+{
+  "name": "js-exam-backend",
+  "version": "1.0.0",
+  "description": "js-exam graphql server",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/innovap3/js-exam-backend.git"
+  },
+  "author": "innovap3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/innovap3/js-exam-backend/issues"
+  },
+  "homepage": "https://github.com/innovap3/js-exam-backend#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
